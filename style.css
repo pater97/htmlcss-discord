@@ -12,3 +12,48 @@
 body{
     font-family:"helvetica","sans serif"
 }
+.center{
+    width: 80%;
+    margin: auto;
+}
+/* header */
+.small{
+    width: 25%;
+    background-color: burlywood;
+    float: left;
+}
+.big{
+    background-color: crimson;
+    width: 50%;
+    float: left;
+}
+.presentation{
+    position: relative;
+}
+.maintxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* debug class */
+.debug .content1{
+    background-color: blueviolet;
+    height: 30rem;
+}
+.debug .barra{
+    height: 4rem;
+    background-color: brown;
+}
+.debug .small,.big{
+    height: 4rem;
+}
+.debug .presentation{
+    background-color: darkblue;
+    height: 26rem;
+}
+.debug .maintxt{
+    background-color: darkorange;
+    height: 20rem;
+    width: 30rem;
+}
