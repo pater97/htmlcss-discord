@@ -20,12 +20,15 @@ body{
     margin-top: 2rem;
 }
 /* header */
+header{
+    color: white;
+}
 .content1{
     background-image: url(./img/jumbo.png);
     background-size: cover;
-    height: 30rem;
 }
 .barra{
+    height: 4rem;
     line-height: 4rem;
     vertical-align: middle;
 }
@@ -52,14 +55,27 @@ li{
 }
 
 /* /barranavigazione */
+/* bannercentrale */
 .presentation{
     position: relative;
+    height: 22rem;
 }
 .maintxt{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-align: center;
+}
+.maintxt p{
+    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+}
+.bottoni a{
+    margin: 0 1rem;
+}
+h1{
+    font-size: 3rem;
 }
 /* main */
 .image,.txt,li{
@@ -95,10 +111,14 @@ footer{
     color: black;
     background-color: white;
     border-radius: 2rem;
-    padding: 0.2rem .5rem
+    padding: 0.3rem 1rem
 }
 .endtxt{
         text-align: end;
+}
+.black{
+    background-color: black;
+    color: white;
 }
 /* debug class */
 .debug .content1{
