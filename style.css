@@ -12,9 +12,12 @@
 body{
     font-family:"helvetica","sans serif"
 }
-.center{
+.center,.foot{
     width: 80%;
     margin: auto;
+}
+.content{
+    margin-top: 2rem;
 }
 /* header */
 .small{
@@ -36,6 +39,35 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+/* main */
+.image,.txt{
+    float: left;
+}
+.image{
+    width: 60%;
+}
+.txt{
+    width: 40%;
+}
+.content5{
+    margin: 3rem 0;
+}
+/* footer */
+footer{
+    background-color: darkgray;
+}
+.cpfoot{
+    width: 40%;
+    float: left;
+}
+.csfoot{
+    width: 15%;
+    float: left;
+}
+.ban{
+    float: left;
+    width: 50%;
+}
 /* debug class */
 .debug .content1{
     background-color: blueviolet;
@@ -56,4 +88,46 @@ body{
     background-color: darkorange;
     height: 20rem;
     width: 30rem;
+}
+.debug .image{
+    background-color: deepskyblue;
+    height: 20rem;
+}
+.debug .txt{
+    background-color: darkseagreen;
+    height: 20rem;
+}
+.debug .image,.txt{
+    margin-top: 2rem;
+}
+.debug .lasttxt{
+    height: 7rem;
+    background-color: deeppink;
+    margin-top: 3rem;
+}
+.debug .lastimage{
+    height: 20rem;
+    background-color: gold;
+}
+.debug .calltoaction{
+    height:7rem;
+    background-color: indianred;
+}
+.debug .cpfoot, .csfoot{
+    height: 20rem;
+}
+.debug .cpfoot{
+    background-color: darkkhaki;
+}
+.debug .csfoot{
+    background-color:palegreen ;
+}
+.debug .ban{
+    height: 6rem;
+}
+.viola{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
 }
