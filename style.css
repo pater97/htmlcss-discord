@@ -10,7 +10,7 @@
     clear: both;
 }
 body{
-    font-family:"helvetica","sans serif"
+    font-family:"catamaran","sans serif"
 }
 .center,.foot{
     width: 80%;
@@ -20,16 +20,38 @@ body{
     margin-top: 2rem;
 }
 /* header */
+.content1{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 30rem;
+}
+.barra{
+    line-height: 4rem;
+    vertical-align: middle;
+}
+.small img{
+    vertical-align: middle;
+}
+.big ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    padding: 0 1rem;
+}
 .small{
     width: 25%;
-    background-color: burlywood;
     float: left;
 }
 .big{
-    background-color: crimson;
     width: 50%;
     float: left;
 }
+
+/* /barranavigazione */
 .presentation{
     position: relative;
 }
@@ -40,7 +62,7 @@ body{
     transform: translate(-50%,-50%);
 }
 /* main */
-.image,.txt{
+.image,.txt,li{
     float: left;
 }
 .image{
@@ -67,6 +89,16 @@ footer{
 .ban{
     float: left;
     width: 50%;
+}
+/* utility */
+.button{
+    color: black;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.2rem .5rem
+}
+.endtxt{
+        text-align: end;
 }
 /* debug class */
 .debug .content1{
