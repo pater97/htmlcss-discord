@@ -29,13 +29,16 @@ header{
     background-size: cover;
     margin-bottom: 6rem;
 }
+/* barra nav */
 .barra{
     height: 4rem;
     line-height: 4rem;
+}
+.small img,.barra{
     vertical-align: middle;
 }
-.small img{
-    vertical-align: middle;
+.big li,.small,.big{
+    float: left;
 }
 .big ul{
     list-style: none;
@@ -45,19 +48,15 @@ header{
     color: white;
 }
 .big li{
-    float: left;
     width: 20%;
     text-align: center;
 }
 .small{
     width: 25%;
-    float: left;
 }
 .big{
     width: 50%;
-    float: left;
 }
-
 /* /barranavigazione */
 /* bannercentrale */
 .presentation{
@@ -115,11 +114,9 @@ h1{
 }
 .content5{
     margin: 3rem 0;
-    text-align: center;
 }
 .calltoaction h2{
     padding-top: 1.7rem;
-    text-align: center;
 }
 .lasttxt p{
     margin-top: 1rem;
@@ -127,7 +124,7 @@ h1{
 .lasttxt h2{
     font-size: 2.5rem;
 }
-.lastimage{
+.lastimage,.calltoaction h2,.content5{
     text-align: center;
 }
 .calltoaction{
@@ -144,14 +141,11 @@ footer{
 }
 .cpfoot{
     width: 30%;
-    float: left;
 }
 .csfoot{
     width: 17.5%;
-    float: left;
 }
 .ban{
-    float: left;
     width: 50%;
 }
 .colonne{
@@ -165,15 +159,14 @@ footer{
     width: 1rem;
 }
 .csfoot a{
-    float: left;
     width: 100%;
 }
 footer hr{
     border:1px solid #7289DA;
     width: 100%;
+    margin: 1rem 0;
 }
 .lastbanner div{
-    float: left;
     width: 50%;
     margin: 2rem 0;
 }
@@ -184,6 +177,9 @@ footer hr{
     text-decoration: none;
     border-radius: 2rem;
     padding: 0.3rem 1rem
+}
+.lastbanner div,footer hr,.csfoot a,.ban,.csfoot,.cpfoot{
+    float: left;
 }
 .endtxt{
         text-align: end;
