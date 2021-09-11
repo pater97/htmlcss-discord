@@ -18,6 +18,7 @@ body{
 }
 .content{
     margin-top: 2rem;
+    height: 40rem;
 }
 /* header */
 header{
@@ -26,6 +27,7 @@ header{
 .content1{
     background-image: url(./img/jumbo.png);
     background-size: cover;
+    margin-bottom: 6rem;
 }
 .barra{
     height: 4rem;
@@ -44,7 +46,8 @@ header{
 }
 .big li{
     float: left;
-    padding: 0 1rem;
+    width: 20%;
+    text-align: center;
 }
 .small{
     width: 25%;
@@ -102,17 +105,37 @@ h1{
 .image > img{
     width: 35rem;
 }
-.content5{
-    margin: 3rem 0;
-}
 .txt h2{
     font-size: 2.3rem;
-    margin-top: 4rem;
     width: 16rem;
     line-height: 3rem;
 }
 .txt p{
     margin-top: 1.5rem;
+}
+.content5{
+    margin: 3rem 0;
+    text-align: center;
+}
+.calltoaction h2{
+    padding-top: 1.7rem;
+    text-align: center;
+}
+.lasttxt p{
+    margin-top: 1rem;
+}
+.lasttxt h2{
+    font-size: 2.5rem;
+}
+.lastimage{
+    text-align: center;
+}
+.calltoaction{
+    margin:3rem auto;
+    width: 50%;
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 /* footer */
 footer{
@@ -143,6 +166,13 @@ footer{
 }
 .black{
     background-color: black;
+    color: white;
+}
+/* .sfondo{
+    background-image: url(./img/wave.svg);
+} */
+.lailac{
+    background-color: #8EA1E1;
     color: white;
 }
 /* debug class */
