@@ -38,11 +38,12 @@ header{
 .big ul{
     list-style: none;
 }
-a{
+.big a{
     text-decoration: none;
     color: white;
 }
-li{
+.big li{
+    float: left;
     padding: 0 1rem;
 }
 .small{
@@ -73,22 +74,45 @@ li{
 }
 .bottoni a{
     margin: 0 1rem;
+    
 }
 h1{
     font-size: 3rem;
 }
 /* main */
-.image,.txt,li{
+.colonna{
+    position: relative;
+    top: 0;
+    left: 0;
     float: left;
+    height: 30rem;
 }
-.image{
+.uno{
     width: 60%;
 }
-.txt{
+.due{
     width: 40%;
+}
+.image,.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image > img{
+    width: 35rem;
 }
 .content5{
     margin: 3rem 0;
+}
+.txt h2{
+    font-size: 2.3rem;
+    margin-top: 4rem;
+    width: 16rem;
+    line-height: 3rem;
+}
+.txt p{
+    margin-top: 1.5rem;
 }
 /* footer */
 footer{
@@ -110,6 +134,7 @@ footer{
 .button{
     color: black;
     background-color: white;
+    text-decoration: none;
     border-radius: 2rem;
     padding: 0.3rem 1rem
 }
@@ -121,65 +146,3 @@ footer{
     color: white;
 }
 /* debug class */
-.debug .content1{
-    background-color: blueviolet;
-    height: 30rem;
-}
-.debug .barra{
-    height: 4rem;
-    background-color: brown;
-}
-.debug .small,.big{
-    height: 4rem;
-}
-.debug .presentation{
-    background-color: darkblue;
-    height: 26rem;
-}
-.debug .maintxt{
-    background-color: darkorange;
-    height: 20rem;
-    width: 30rem;
-}
-.debug .image{
-    background-color: deepskyblue;
-    height: 20rem;
-}
-.debug .txt{
-    background-color: darkseagreen;
-    height: 20rem;
-}
-.debug .image,.txt{
-    margin-top: 2rem;
-}
-.debug .lasttxt{
-    height: 7rem;
-    background-color: deeppink;
-    margin-top: 3rem;
-}
-.debug .lastimage{
-    height: 20rem;
-    background-color: gold;
-}
-.debug .calltoaction{
-    height:7rem;
-    background-color: indianred;
-}
-.debug .cpfoot, .csfoot{
-    height: 20rem;
-}
-.debug .cpfoot{
-    background-color: darkkhaki;
-}
-.debug .csfoot{
-    background-color:palegreen ;
-}
-.debug .ban{
-    height: 6rem;
-}
-.viola{
-    background-color: red;
-}
-.pink{
-    background-color: pink;
-}
