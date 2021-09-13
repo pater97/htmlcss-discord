@@ -12,13 +12,12 @@
 body{
     font-family:"catamaran","sans serif"
 }
-.center,.foot{
+.center,.row,.foot{
     width: 80%;
     margin: auto;
 }
 .content{
-    margin-top: 2rem;
-    height: 40rem;
+ 
 }
 /* header */
 header{
@@ -83,31 +82,24 @@ h1{
 }
 /* main */
 .colonna{
-    position: relative;
-    top: 0;
-    left: 0;
     float: left;
-    height: 30rem;
 }
 .uno{
-    width: 60%;
+    width: 70%;
 }
 .due{
-    width: 40%;
+    width: 30%;
 }
 .image,.txt{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
 }
 .image > img{
     width: 35rem;
+    margin-top: -2rem;
 }
-.txt h2{
-    font-size: 2.3rem;
-    width: 16rem;
-    line-height: 3rem;
+.colonna h2{
+    font-size: 3rem;
+    line-height: 4rem;
 }
 .txt p{
     margin-top: 1.5rem;
