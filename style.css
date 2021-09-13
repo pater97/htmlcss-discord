@@ -10,14 +10,15 @@
     clear: both;
 }
 body{
-    font-family:"catamaran","sans serif"
+    font-family:"catamaran","sans serif";
+    min-width: 1440px;
 }
 .center,.row,.foot{
     width: 80%;
     margin: auto;
 }
 .content{
- 
+    padding:10rem 0;
 }
 /* header */
 header{
@@ -57,7 +58,7 @@ header{
     width: 50%;
 }
 /* /barranavigazione */
-/* bannercentrale */
+/* hero image */
 .presentation{
     position: relative;
     height: 22rem;
@@ -80,33 +81,31 @@ header{
 h1{
     font-size: 3rem;
 }
-/* main */
+/* img e testo a specchio*/
 .colonna{
     float: left;
 }
 .uno{
     width: 70%;
+    text-align: center;
 }
 .due{
     width: 30%;
-}
-.image,.txt{
-    
-}
-.image > img{
-    width: 35rem;
-    margin-top: -2rem;
+    padding: 2rem 0;
 }
 .colonna h2{
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: 2.7rem;
+    line-height: 3.5rem;
 }
-.txt p{
-    margin-top: 1.5rem;
+.colonna p{
+    margin-top: 1rem;
 }
-.content5{
-    margin: 3rem 0;
+.onda{
+    color: #F6F6F6;
+    margin: -1rem;
 }
+/* immagini e testo incolonnate */
+
 .calltoaction h2{
     padding-top: 1.7rem;
 }
@@ -116,7 +115,7 @@ h1{
 .lasttxt h2{
     font-size: 2.5rem;
 }
-.lastimage,.calltoaction h2,.content5{
+.lastimage,.calltoaction h2,.testo_centrato{
     text-align: center;
 }
 .calltoaction{
@@ -180,12 +179,12 @@ footer hr{
     background-color: black;
     color: white;
 }
-/* .sfondo{
-    background-image: url(./img/wave.svg);
-} */
 .lailac{
     background-color: #8EA1E1;
     color: white;
+}
+.grey{
+    background-color: #F6F6F6;
 }
 .title{
     color: #7289DA;
@@ -193,5 +192,7 @@ footer hr{
 .freccia{
     font-size: .6rem;
 }
+.specchio{
+    transform: rotate(180deg);
+}
 
-/* debug class */
