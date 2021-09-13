@@ -43,7 +43,7 @@ header{
 .big ul{
     list-style: none;
 }
-.big a,.csfoot a{
+.big a,.csfoot a,.brand a{
     text-decoration: none;
     color: white;
 }
@@ -144,10 +144,17 @@ footer{
 }
 .cpfoot .title{
     font-size: 1.5rem;
-    width: 50%;
+    line-height: 2.5rem;
+}
+.cpfoot div{
+    margin-bottom: 1rem;
 }
 .cpfoot img{
     width: 1rem;
+}
+.title{
+    color: #7289DA;
+    font-weight: bold;
 }
 .csfoot a{
     width: 100%;
@@ -160,6 +167,9 @@ footer hr{
 .lastbanner div{
     width: 50%;
     margin: 2rem 0;
+}
+.brand a{
+    margin-right: 1rem;
 }
 /* utility */
 .button{
@@ -186,13 +196,31 @@ footer hr{
 .grey{
     background-color: #F6F6F6;
 }
-.title{
-    color: #7289DA;
-}
 .freccia{
     font-size: .6rem;
 }
 .specchio{
     transform: rotate(180deg);
 }
-
+/* effettistica */
+.big a:hover,.colonne a:hover{
+    text-decoration: underline;
+}
+a.button:hover {
+    box-shadow: 0px 8px 30px 1px rgba(126, 125, 125, 0.726);
+}
+.changecolor:hover{
+    color:#7289DA ;
+}
+.lailac:hover{
+    background-color: #688aff;
+}
+.black:hover{
+    background-color: #3e3939;
+}
+select{
+    width: 1rem;
+    background-color: #23272A;
+    color: white;
+    border: 0px;
+}

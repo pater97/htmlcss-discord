@@ -10,10 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Discord</title>
 </head>
 
-<body class="">
+<body>
 
     <main>
         <!-- contenitore hero image -->
@@ -49,7 +52,7 @@
                     </div>
                     <!-- bottone Accedi -->
                     <div class="small endtxt">
-                        <a class="button"
+                        <a class="button changecolor"
                             href="https://discord.com/login?brand_id=96508&locale_id=22&return_to=https%3A%2F%2Fsupport.discord.com%2Fhc%2Fit&service=zendesk&timestamp=1631278730">Accedi
                         </a>
                     </div>
@@ -65,7 +68,7 @@
                             chiacchierare ogni giorno e ritrovarsi...
                         </p>
                         <div class="bottoni clarfix">
-                            <a class="button" href="//discord.com/api/download?platform=osx"><span>
+                            <a class="button changecolor" href="//discord.com/api/download?platform=osx"><span>
                                     &#8595;</span> Scarica per mac</a>
                             <a class="button black" href="https://discord.com/">Apri Discord nel tuo browser</a>
                         </div>
@@ -194,12 +197,33 @@
                 <!-- colonna più larga -->
                 <div class="cpfoot">
                     <div class="title">
-                        Il tuo posto per parlare
+                        <h2>
+                            Il tuo posto per parlare
+                        </h2>
                     </div>
                     <div>
                         <img src="./img/ita.png" alt="">
                         <span>Italiano</span>
-                        <span class="freccia">&#9660;</span>
+                        <select>
+                            <option value="opt1">tedesco</option>
+                            <option value="opt1">spagnolo</option>
+                            <option value="opt1">francese</option>
+                            <option value="opt1">inglese</option>
+                        </select>
+                    </div>
+                    <div class="brand">
+                        <a href="https://twitter.com/discord" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/discord/" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/discord/" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/discord" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
                 </div>
                 <!-- colonne piccole -->
@@ -263,7 +287,9 @@
             <!-- logo e registrazione -->
             <div class="lastbanner clearfix">
                 <div>
-                    <img src="./img/logo.svg" alt="logo discord">
+                    <a href="https://discord.com/">
+                        <img src="./img/logo.svg" alt="logo discord">
+                    </a>
                 </div>
                 <div class="endtxt">
                     <a class="button lailac" href="https://discord.com/register">registrati</a>
